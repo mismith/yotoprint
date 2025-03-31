@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-background: light-dark(#f0f0f0, #111827);
+}

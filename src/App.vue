@@ -1,5 +1,5 @@
 <script setup>
-import BaseCard from './components/BaseCard.vue'
+import BaseCard from '@/components/BaseCard.vue'
 </script>
 
 <template>
@@ -11,6 +11,12 @@ import BaseCard from './components/BaseCard.vue'
 </template>
 
 <style>
+:root {
+  color-scheme: light dark;
+}
+body {
+  background: var(--color-background);
+}
 @page {
   margin: 0;
 }
