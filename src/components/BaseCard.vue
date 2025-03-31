@@ -16,9 +16,11 @@ const file = ref(null)
   >
     <div
       v-if="!file"
-      class="absolute inset-0 flex items-center justify-center text-center text-sm text-gray-500 print:hidden"
+      class="absolute inset-0 flex flex-col items-center justify-center gap-8 text-center text-sm text-gray-500 print:hidden"
     >
       Pick an image
+
+      <div class="text-xs opacity-50">3.375in &times; 2.125in</div>
     </div>
     <input
       type="file"
